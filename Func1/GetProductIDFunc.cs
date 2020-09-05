@@ -27,7 +27,7 @@ namespace OpenHackCo.Function
 
             string responseMessage = string.IsNullOrEmpty(productId)
                 ? "This HTTP triggered function executed successfully. Pass a product id in the query string or in the request body for a personalized response."
-                : $"The product name for your product id {productId} is Starfruit Explosion. A NEW COMMIT";
+                : $"The product name for your product id {productId} is Starfruit Explosion. A NEW COMMIT 2";
 
             return new OkObjectResult(responseMessage);
         }
