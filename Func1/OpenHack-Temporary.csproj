@@ -5,7 +5,8 @@
     <RootNamespace>OpenHack_Temporary</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="1.0.36" />
+    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="1.0.36"/>
+    <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.CosmosDB" Version="3.0.7"/>
   </ItemGroup>
   <ItemGroup>
     <None Update="host.json">
